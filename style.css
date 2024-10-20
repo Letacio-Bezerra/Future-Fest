@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  background: rgba(0, 35, 51, 1);
+  font-family: "Inter";
+}
+
+body p{
+  font-size: 1.3em;
+}
+
+body h2{
+  font-size: 2em;
+}
+
+header {
+  background: rgba(21, 154, 156, 1);
+  color: rgba(207, 207, 207, 1);
+}
+
+.containerHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  gap: 5%;
+  font-size: 1.2em;
+}
+
+.links a{
+  color: rgb(230, 230, 230);
+}
+
+.logo {
+  background-color: rgba(207, 207, 207, 1);
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+}
+
+.containerIntro {
+  color: rgba(222, 239, 231, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5%;
+  margin: 5%;
+}
+
+.imgIntro {
+  width: 40%;
+  height: 35vh;
+}
+
+.imgIntro img{
+  width: 100%;
+}
+
+.textoInto {
+  width: 40%;
+}
+
+button {
+  color: rgba(222, 239, 231, 1);
+}
+
+.cadastro {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.btn-cadastrar {
+  width: 40%;
+  height: 8vh;
+  font-size: 1.2em;
+  background-color: rgba(21, 154, 156, 1);
+  border: 5px solid rgba(19, 112, 114, 1);
+  border-radius: 10px;
+}
+
+.btn-cadastrar a{
+  text-decoration: none;
+  color: rgba(222, 239, 231, 1);
+}
+
+.btn-cadastrar:hover{
+  background-color: rgb(26, 174, 177);
+  cursor: pointer;
+}
+
+.btn-entrar {
+  width: 40%;
+  height: 8vh;
+  font-size: 1.2em;
+  background-color: rgba(180, 190, 201, 1);
+  border: 5px solid rgba(140, 147, 155, 1);
+  border-radius: 10px;
+}
+
+.btn-entrar a{
+  text-decoration: none;
+  color: rgba(222, 239, 231, 1);
+}
+
+.btn-entrar:hover{
+  background-color: rgb(157, 166, 177);
+  cursor: pointer;
+}
+
+.funcs {
+  color: rgba(222, 239, 231, 1);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5%;
+  margin: 5%;
+}
+
+.imgFunc {
+  width: 40%;
+  height: 35vh;
+}
+
+.imgFunc img{
+  width: 100%;
+}
+
+.textoFunc {
+  width: 40%;
+}
+
+.titleFunc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(222, 239, 231, 1);
+  background: rgba(21, 154, 156, 1);
+  width: 60%;
+  height: 10vh;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 2em;
+}
+
+.chatBot {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: rgba(222, 239, 231, 1);
+}
+
+.chatBot h2 {
+  font-size: 2em;
+}
+
+.textLine {
+  font-style: italic;
+  text-decoration: underline;
+  color: rgba(21, 154, 156, 1);
+}
+
+.titleCor1 {
+  color: rgba(21, 154, 156, 1);
+}
+
+.textoChat,
+.textoAdap,
+.textoProf,
+.textoRec,
+.imgRec {
+  width: 40%;
+}
+
+.imgRec img{
+  width: 100%;
+  border: 10px solid rgba(21, 154, 156, 1);
+  border-radius: 10%;
+}
+
+.rec{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+}
+
+footer{
+  background: rgba(21, 154, 156, 1);
+  width: 100%;
+}
+
+.containerFooter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  height: 10vh;
+}
+
+.cadastroF{
+  display: flex;
+  gap: 20%;
+  color: rgba(222, 239, 231, 1);
+  transform: translateX(-100%);
+}
+
+.cadastroF a{
+  font-size: 1.3em;
+  color: rgb(230, 230, 230);
+}
+
+.contato{
+  transform: translateX(180%);
+}
+
+.equipe h2{
+  margin-top: 5%;
+  text-align: center;
+  color: rgb(222, 239, 231, 1);
+}
+
+.equipeF{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: rgb(222, 239, 231, 1);
+}
+
+.equipeF h3{
+  font-size: 1.6em;
+}
+
+.equipeF p{
+  color: rgba(21, 154, 156, 1);
+}
+
+.equipe{
+  display: flex;
+  flex-direction: column;
+}
+
+.imgEqp{
+  background: lightblue;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
