@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -13,17 +13,22 @@ body {
   font-family: "Inter";
 }
 
-body p{
+body p {
   font-size: 1.3em;
 }
 
-body h2{
+body h2 {
   font-size: 2em;
 }
 
 header {
   background: rgba(21, 154, 156, 1);
   color: rgba(207, 207, 207, 1);
+}
+
+.imgFunc img,
+.imgIntro img{
+  border: 5px solid rgb(17, 124, 125);
 }
 
 .containerHeader {
@@ -39,7 +44,7 @@ header {
   font-size: 1.2em;
 }
 
-.links a{
+.links a {
   color: rgb(230, 230, 230);
 }
 
@@ -65,7 +70,7 @@ header {
   height: 35vh;
 }
 
-.imgIntro img{
+.imgIntro img {
   width: 100%;
 }
 
@@ -92,12 +97,12 @@ button {
   border-radius: 10px;
 }
 
-.btn-cadastrar a{
+.btn-cadastrar a {
   text-decoration: none;
   color: rgba(222, 239, 231, 1);
 }
 
-.btn-cadastrar:hover{
+.btn-cadastrar:hover {
   background-color: rgb(26, 174, 177);
   cursor: pointer;
 }
@@ -111,12 +116,12 @@ button {
   border-radius: 10px;
 }
 
-.btn-entrar a{
+.btn-entrar a {
   text-decoration: none;
   color: rgba(222, 239, 231, 1);
 }
 
-.btn-entrar:hover{
+.btn-entrar:hover {
   background-color: rgb(157, 166, 177);
   cursor: pointer;
 }
@@ -128,6 +133,7 @@ button {
   flex-wrap: wrap;
   gap: 5%;
   margin: 5%;
+  padding: 2%;
 }
 
 .imgFunc {
@@ -135,7 +141,7 @@ button {
   height: 35vh;
 }
 
-.imgFunc img{
+.imgFunc img {
   width: 100%;
 }
 
@@ -160,6 +166,7 @@ button {
   justify-content: space-around;
   flex-wrap: wrap;
   color: rgba(222, 239, 231, 1);
+  padding: 1%;
 }
 
 .chatBot h2 {
@@ -184,25 +191,25 @@ button {
   width: 40%;
 }
 
-.imgRec img{
+.imgRec img {
   width: 100%;
   border: 10px solid rgba(21, 154, 156, 1);
   border-radius: 10%;
 }
 
-.rec{
+.rec {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 5%;
 }
 
-footer{
+footer {
   background: rgba(21, 154, 156, 1);
   width: 100%;
 }
 
-.containerFooter{
+.containerFooter {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -211,49 +218,49 @@ footer{
   height: 10vh;
 }
 
-.cadastroF{
+.cadastroF {
   display: flex;
   gap: 20%;
   color: rgba(222, 239, 231, 1);
   transform: translateX(-100%);
 }
 
-.cadastroF a{
+.cadastroF a {
   font-size: 1.3em;
   color: rgb(230, 230, 230);
 }
 
-.contato{
+.contato {
   transform: translateX(180%);
 }
 
-.equipe h2{
+.equipe h2 {
   margin-top: 5%;
   text-align: center;
   color: rgb(222, 239, 231, 1);
 }
 
-.equipeF{
+.equipeF {
   display: flex;
   justify-content: space-around;
   text-align: center;
   color: rgb(222, 239, 231, 1);
 }
 
-.equipeF h3{
+.equipeF h3 {
   font-size: 1.6em;
 }
 
-.equipeF p{
+.equipeF p {
   color: rgba(21, 154, 156, 1);
 }
 
-.equipe{
+.equipe {
   display: flex;
   flex-direction: column;
 }
 
-.imgEqp{
+.imgEqp {
   background: lightblue;
   border-radius: 50%;
   width: 150px;

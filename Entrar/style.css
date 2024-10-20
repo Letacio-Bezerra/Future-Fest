@@ -4,107 +4,108 @@
   box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-  }
-  
-  body {
-    background: rgba(0, 35, 51, 1);
-    font-family: "Inter";
-    color: rgba(207, 207, 207, 1);
-    height: 100vh;
-  }
-  
-  body p{
-    font-size: 1.3em;
-  }
+a {
+  text-decoration: none;
+}
 
-  input, label{
-    font-size: 1.3em;
-  }
-  
-  body h2{
-    font-size: 2em;
-  }
+body {
+  background: rgba(0, 35, 51, 1);
+  font-family: "Inter";
+  color: rgba(207, 207, 207, 1);
+  height: 100vh;
+}
 
-  .btn-entrar{
-    width: 20%;
-    height: 8vh;
-    font-size: 1.2em;
-    background-color: rgba(21, 154, 156, 1);
-    border: 5px solid rgba(19, 112, 114, 1);
-    border-radius: 10px;
-  }
+body p {
+  font-size: 1.3em;
+}
 
-  .textLine {
-    font-style: italic;
-    text-decoration: underline;
-    color: rgba(21, 154, 156, 1);
-  }
+input,
+label {
+  font-size: 1.3em;
+}
 
-  .textLine a{
-    color: rgba(21, 154, 156, 1);
-  }
-  
-  header {
-    background: rgba(21, 154, 156, 1);
-    color: rgba(207, 207, 207, 1);
-  }
-  
-  .containerHeader {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  .links {
-    display: flex;
-    gap: 5%;
-    font-size: 1.2em;
-  }
-  
-  .links a{
-    color: rgb(230, 230, 230);
-  }
-  
-  .logo {
-    background-color: rgba(207, 207, 207, 1);
-    width: 74px;
-    height: 74px;
-    border-radius: 50%;
-  }
+body h2 {
+  font-size: 2em;
+}
 
-  footer{
-    background: rgba(21, 154, 156, 1);
-    width: 100%;
-    position: fixed;
-    bottom:0;
-    left:0;
-  }
-  
-  .containerFooter{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 10vh;
-    margin-top: 5%;
-  }
+.btn-entrar {
+  width: 20%;
+  height: 8vh;
+  font-size: 1.2em;
+  background-color: rgba(21, 154, 156, 1);
+  border: 5px solid rgba(19, 112, 114, 1);
+  border-radius: 10px;
+}
 
-  .cadastroF{
-    display: flex;
-    gap: 20%;
-    color: rgba(222, 239, 231, 1);
-    transform: translateX(-100%);
-  }
-  
-  .cadastroF a{
-    font-size: 1.3em;
-    color: rgb(230, 230, 230);
-  }
+.textLine {
+  font-style: italic;
+  text-decoration: underline;
+  color: rgba(21, 154, 156, 1);
+}
 
-.containerMain{
+.textLine a {
+  color: rgba(21, 154, 156, 1);
+}
+
+header {
+  background: rgba(21, 154, 156, 1);
+  color: rgba(207, 207, 207, 1);
+}
+
+.containerHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  gap: 5%;
+  font-size: 1.2em;
+}
+
+.links a {
+  color: rgb(230, 230, 230);
+}
+
+.logo {
+  background-color: rgba(207, 207, 207, 1);
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+}
+
+footer {
+  background: rgba(21, 154, 156, 1);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.containerFooter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 10vh;
+  margin-top: 5%;
+}
+
+.cadastroF {
+  display: flex;
+  gap: 20%;
+  color: rgba(222, 239, 231, 1);
+  transform: translateX(-100%);
+}
+
+.cadastroF a {
+  font-size: 1.3em;
+  color: rgb(230, 230, 230);
+}
+
+.containerMain {
   display: flex;
   flex-direction: column;
   justify-content: center;
